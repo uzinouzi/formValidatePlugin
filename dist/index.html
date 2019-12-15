@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>CITForm - Plugin</title>
+<link href="/css/style.css" rel="stylesheet"></head>
+<body>
+	<div class="wrapper">
+		<form action="" enctype="multipart/form-data">
+			<input class="name" name='name' type="text" placeholder="Name">
+			<input class="phone" name='phone' type="text" placeholder="Phone">
+			<input class="mail" name='mail' type="text" placeholder="E-mail">
+			<textarea class="ms" name='message' placeholder="Message"></textarea>
+			<div class="checkbox-area">
+				<input class="input" class="rules" id='rules' type="checkbox" value='yes' />
+				<label for="rules">Я ознакомился с правилами пользования</label>
+			</div>
+			<div class="file-area">
+				<input class="file" name="file" type="file" id='file'  multiple="true">
+				<label for="file">Загрузить файлы</label>
+			</div>
+			<button type="submit">Отправить</button>
+			
+		</form>
+	</div>
+<script type="text/javascript" src="/js/bundle.js"></script></body>
+</html>
